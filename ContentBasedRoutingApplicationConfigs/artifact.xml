@@ -20,4 +20,13 @@
     <artifact name="secondSubFlow" groupId="com.sergain.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
         <file>src/main/synapse-config/sequences/secondSubFlow.xml</file>
     </artifact>
+    <artifact name="HealthcareAPI" groupId="com.sergain.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/HealthcareAPI.xml</file>
+    </artifact>
+    <artifact name="HealthcareAPI_swagger" groupId="com.sergain.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/HealthcareAPI_swagger.yaml</file>
+    </artifact>
+    <artifact name="HealthcareAPI_metadata" groupId="com.sergain.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/HealthcareAPI_metadata.yaml</file>
+    </artifact>
 </artifacts>
